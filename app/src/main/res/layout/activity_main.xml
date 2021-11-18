@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_background"
+    tools:context=".Activity.SplashScreenActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <GridLayout
+        android:background="@color/super_black_background"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:columnCount="4"
+        android:rowCount="5">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/background_button"
+        android:text="@string/ac"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    </GridLayout>
+
+</LinearLayout>

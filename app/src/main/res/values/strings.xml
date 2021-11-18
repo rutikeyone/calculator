@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculator App</string>
+    <string name="by_n_andrew_ershov">By\n Andrew Ershov</string>
+    <string name="first_fragment_label"></string>
+    <string name="second_fragment_label"></string>
+    <string name="ac">AC</string>
+</resources>
