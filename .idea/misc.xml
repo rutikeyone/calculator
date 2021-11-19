@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/rutikeyone/AndroidStudioProjects/Calculator/app/src/main/res/drawable/background_button.xml" value="0.2703125" />
+        <entry key="..\:/Users/rutikeyone/AndroidStudioProjects/Calculator/app/src/main/res/drawable/background_equality_background.xml" value="0.2703125" />
         <entry key="..\:/Users/rutikeyone/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/rutikeyone/AndroidStudioProjects/Calculator/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/rutikeyone/AndroidStudioProjects/Calculator/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />

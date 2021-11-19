@@ -1,189 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/black_background"
-    android:orientation="vertical"
-    tools:context=".Activity.SplashScreenActivity">
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_height="match_parent"
+        android:background="@color/black_background"
+        android:orientation="vertical"
+        tools:context=".Activity.SplashScreenActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:background="@color/super_black_background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="bottom">
 
+            <TextView
+                android:id="@+id/inputText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="40dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/white" />
 
-        <GridLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:columnCount="4"
-            android:padding="10dp"
-            android:rowCount="5"
-            >
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/ac"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="0"
-                android:layout_column="0"
-                android:background="@drawable/background_button"
-                android:text="@string/ac" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/share"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="0"
-                android:layout_column="1"
-                android:background="@drawable/background_button"
-                android:text="@string/share" />
+            <TextView
+                android:id="@+id/outputText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="100dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/white" />
 
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/leftBracket"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="0"
-                android:layout_column="2"
-                android:background="@drawable/background_button"
-                android:text="@string/leftBracket" />
+        </LinearLayout>
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/rightBracket"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="0"
-                android:layout_column="3"
-                android:background="@drawable/background_button"
-                android:text="@string/rightBracket" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/seven"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="1"
-                android:layout_column="0"
-                android:background="@drawable/background_button"
-                android:text="@string/seven" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/eight"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="1"
-                android:layout_column="1"
-                android:background="@drawable/background_button"
-                android:text="@string/eight" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/super_black_background">
 
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/nine"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="1"
-                android:layout_column="2"
-                android:background="@drawable/background_button"
-                android:text="@string/nine" />
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:columnCount="4"
+                android:padding="10dp"
+                android:rowCount="5">
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/multiply"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="1"
-                android:layout_column="3"
-                android:background="@drawable/background_button"
-                android:text="@string/multiply" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/ac"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:background="@drawable/background_button"
+                    android:text="@string/ac" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/four"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="2"
-                android:layout_column="0"
-                android:background="@drawable/background_button"
-                android:text="@string/four" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/share"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:background="@drawable/background_button"
+                    android:text="@string/share" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/five"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="2"
-                android:layout_column="1"
-                android:background="@drawable/background_button"
-                android:text="@string/five" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/six"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="2"
-                android:layout_column="2"
-                android:background="@drawable/background_button"
-                android:text="@string/six" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/leftBracket"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:background="@drawable/background_button"
+                    android:text="@string/leftBracket" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/minus"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="2"
-                android:layout_column="3"
-                android:background="@drawable/background_button"
-                android:text="@string/minus" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/rightBracket"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="0"
+                    android:layout_column="3"
+                    android:background="@drawable/background_button"
+                    android:text="@string/rightBracket" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/one"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="3"
-                android:layout_column="0"
-                android:background="@drawable/background_button"
-                android:text="@string/one" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/seven"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:background="@drawable/background_button"
+                    android:text="@string/seven" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/two"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="3"
-                android:layout_column="1"
-                android:background="@drawable/background_button"
-                android:text="@string/two" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/eight"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:background="@drawable/background_button"
+                    android:text="@string/eight" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/three"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="3"
-                android:layout_column="2"
-                android:background="@drawable/background_button"
-                android:text="@string/three" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/plus"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="3"
-                android:layout_column="3"
-                android:background="@drawable/background_button"
-                android:text="@string/plus" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/nine"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="1"
+                    android:layout_column="2"
+                    android:background="@drawable/background_button"
+                    android:text="@string/nine" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/zero"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="4"
-                android:layout_column="1"
-                android:background="@drawable/background_button"
-                android:text="@string/zero" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/multiply"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="1"
+                    android:layout_column="3"
+                    android:background="@drawable/background_button"
+                    android:text="@string/multiply" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/point"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="4"
-                android:layout_column="2"
-                android:background="@drawable/background_button"
-                android:text="@string/point" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/four"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:background="@drawable/background_button"
+                    android:text="@string/four" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/equally"
-                style="@style/ComputingButtonTheme"
-                android:layout_row="4"
-                android:layout_column="3"
-                android:background="@drawable/background_button"
-                android:text="@string/equally" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/five"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:background="@drawable/background_button"
+                    android:text="@string/five" />
 
-        </GridLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/six"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="2"
+                    android:layout_column="2"
+                    android:background="@drawable/background_button"
+                    android:text="@string/six" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/minus"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="2"
+                    android:layout_column="3"
+                    android:background="@drawable/background_button"
+                    android:text="@string/minus" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/one"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:background="@drawable/background_button"
+                    android:text="@string/one" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/two"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:background="@drawable/background_button"
+                    android:text="@string/two" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/three"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="3"
+                    android:layout_column="2"
+                    android:background="@drawable/background_button"
+                    android:text="@string/three" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/plus"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="3"
+                    android:layout_column="3"
+                    android:background="@drawable/background_button"
+                    android:text="@string/plus" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/zero"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:background="@drawable/background_button"
+                    android:text="@string/zero" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/point"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="4"
+                    android:layout_column="2"
+                    android:background="@drawable/background_button"
+                    android:text="@string/point" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/equally"
+                    style="@style/ComputingButtonTheme"
+                    android:layout_row="4"
+                    android:layout_column="3"
+                    android:background="@drawable/background_equality_background"
+                    android:text="@string/equally" />
+
+            </GridLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
-
-</LinearLayout>
+</layout>
