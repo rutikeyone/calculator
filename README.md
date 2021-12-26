@@ -5,8 +5,8 @@ The Calculator app written in Kotlin for Android.
 ## Screenshots
 
 <p align="center">
-  <img src="https://i.ibb.co/BGZmjKj/2021-11-19-204235.png" width="250"/>
-  <img src="https://i.ibb.co/YRDvVJ7/image.png" width="250" />
+  <img src="https://github.com/RuTiKeyOne/Calculator/blob/master/doc/Screenshots/1.png" width="250"/>
+  <img src="https://github.com/RuTiKeyOne/Calculator/blob/master/doc/Screenshots/2.png" width="250" />
 </p>
 
  ## What functionality does the application provide to the user?
