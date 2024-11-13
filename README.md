@@ -1,10 +1,12 @@
-# Calculator mobile application for Android.
+![GitHub](https://img.shields.io/github/license/IgorVolochay/Face-recognition?style=flat-square&color=blue) &nbsp;
+# Calculator
 
+## Description 
 The Calculator app written in Kotlin for Android.
 
 ## Screenshots
 
-<p align="center">
+<p align="start">
   <img src="https://github.com/RuTiKeyOne/Calculator/blob/master/doc/Screenshots/1.png" width="250"/>
   <img src="https://github.com/RuTiKeyOne/Calculator/blob/master/doc/Screenshots/2.png" width="250" />
 </p>
